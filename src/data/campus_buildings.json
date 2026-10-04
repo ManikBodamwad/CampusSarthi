@@ -1,0 +1,320 @@
+{
+  "campus_center": {
+    "lat": 26.93675,
+    "lng": 80.8985,
+    "zoom": 16
+  },
+  "buildings": [
+    {
+      "id": "main-gate",
+      "name": "Main Entrance",
+      "aka": "Main Gate / Security Post / Guard Desk",
+      "type": "gate",
+      "lat": 26.93675348229897,
+      "lng": 80.90468493469317,
+      "desc": "Main security checkpoint, visitor registration desk, and 24/7 campus gate.",
+      "verified": true
+    },
+    {
+      "id": "patanjali",
+      "name": "Patanjali",
+      "aka": "Faculty Block / Research Wing",
+      "type": "academic",
+      "lat": 26.936984419319785,
+      "lng": 80.90109728010363,
+      "desc": "Faculty offices, conference rooms, dean suites, and academic research centres.",
+      "verified": true
+    },
+    {
+      "id": "gyanodaya",
+      "name": "Gyanodaya Library",
+      "aka": "Central Library / Digital Reference",
+      "type": "facility",
+      "lat": 26.934993317909928,
+      "lng": 80.8989998300212,
+      "desc": "24/7 Central Library with Bloomberg terminals, quiet reading zones, and digital archives.",
+      "verified": true
+    },
+    {
+      "id": "bake-o-mocha",
+      "name": "Bake-o-Mocha",
+      "aka": "BOM / Campus Cafe / Coffee Shop",
+      "type": "food",
+      "lat": 26.93669557167136,
+      "lng": 80.89741276390956,
+      "desc": "Popular student cafe serving hot beverages, baked goods, and late-night snacks till 3 AM.",
+      "verified": true
+    },
+    {
+      "id": "hostel-10",
+      "name": "Hostel 10",
+      "aka": "H10 / PGP Residence 10",
+      "type": "hostel",
+      "lat": 26.93715173312125,
+      "lng": 80.8958787293583,
+      "desc": "Student residential hall block 10 with laundry and recreation lounge.",
+      "verified": true
+    },
+    {
+      "id": "hostel-13-14",
+      "name": "Hostels 13 & 14",
+      "aka": "H13 / H14 / Twin Hostels",
+      "type": "hostel",
+      "lat": 26.937834298437135,
+      "lng": 80.89564120005859,
+      "desc": "Twin student hostel complex with common study room and courtyard.",
+      "verified": true
+    },
+    {
+      "id": "futsal-ground",
+      "name": "Futsal Ground",
+      "aka": "Turf / Synthetic Court / Football",
+      "type": "sports",
+      "lat": 26.93826949336495,
+      "lng": 80.89574312397706,
+      "desc": "Floodlit artificial turf court for futsal, five-a-side football, and evening matches.",
+      "verified": true
+    },
+    {
+      "id": "cricket-ground",
+      "name": "Cricket Ground",
+      "aka": "Main Sports Oval / Pavilion",
+      "type": "sports",
+      "lat": 26.93871903361325,
+      "lng": 80.8941606206832,
+      "desc": "Full-size grass cricket oval with stadium pavilions and athletics track.",
+      "verified": true
+    },
+    {
+      "id": "aryabhatt",
+      "name": "Aryabhatt Guest House",
+      "aka": "MDC / Executive Guest House / VIP Suites",
+      "type": "admin",
+      "lat": 26.93963245561611,
+      "lng": 80.89470779132415,
+      "desc": "Management Development Centre (MDC) executive suites and visiting faculty lodge.",
+      "verified": true
+    },
+    {
+      "id": "utsav-auditorium",
+      "name": "Utsav Auditorium",
+      "aka": "Open Air Theatre / OAT / Amphitheatre",
+      "type": "facility",
+      "lat": 26.94011068406971,
+      "lng": 80.89632784548719,
+      "desc": "Grand campus auditorium and open amphitheatre for convocation, cultural fests, and conclaves.",
+      "verified": true
+    },
+    {
+      "id": "hostel-16",
+      "name": "Hostel 16",
+      "aka": "H16 / Senior Residence",
+      "type": "hostel",
+      "lat": 26.939307259108965,
+      "lng": 80.8949974698831,
+      "desc": "Hostel 16 single-occupancy student residence block.",
+      "verified": true
+    },
+    {
+      "id": "chintan",
+      "name": "Chintan Bhawan",
+      "aka": "Bodhi Griha 3 / BG3 / Academic Block / Hall 5 / Hall 1",
+      "type": "academic",
+      "lat": 26.935445086780398,
+      "lng": 80.8973612745292,
+      "desc": "Primary academic building containing lecture halls (Halls 1 to 8), IT centre, and case study rooms.",
+      "verified": true
+    },
+    {
+      "id": "samadhan",
+      "name": "Samadhan Admin Block",
+      "aka": "Admin Tower / Director Office / Admissions / Accounts / Room 108 / G-12",
+      "type": "admin",
+      "lat": 26.9351344761199,
+      "lng": 80.89783125806206,
+      "desc": "Central administration block housing Admissions (G-12), Director's Office, and Accounts (Room 108).",
+      "verified": true
+    },
+    {
+      "id": "annapoorna-mess",
+      "name": "Annapoorna Mess",
+      "aka": "Central Dining Complex / Mess 1 / Food Court",
+      "type": "food",
+      "lat": 26.937276481071688,
+      "lng": 80.89812322769444,
+      "desc": "Central student and faculty dining hall serving multi-cuisine breakfast, lunch, and dinner.",
+      "verified": true
+    },
+    {
+      "id": "health-centre",
+      "name": "Samarpan Health Centre",
+      "aka": "Medical Centre / Pharmacy / OPD / Doctor Clinic",
+      "type": "facility",
+      "lat": 26.93573194786111,
+      "lng": 80.89530344441151,
+      "desc": "24/7 campus hospital with emergency care, resident physicians, pharmacy, and ambulance.",
+      "verified": true
+    },
+    {
+      "id": "anusandhan",
+      "name": "Anusandhan",
+      "aka": "SCIFI Incubation / Research Centre / Innovation Hub",
+      "type": "academic",
+      "lat": 26.93593780416668,
+      "lng": 80.89484667789476,
+      "desc": "SCIFI startup incubator, research laboratories, and doctoral research suites.",
+      "verified": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": "hall-5",
+      "name": "Hall 5",
+      "building_id": "chintan",
+      "floor": "Floor 1",
+      "wing": "East Wing",
+      "directions_text": "Enter Chintan (Bodhi Griha 3) via the Main Portico -> Head up the central marble staircase to Floor 1 -> Turn right down the East Wing corridor -> Hall 5 is the 3rd tiered lecture theatre on your left (adjacent to Faculty Lounge)."
+    },
+    {
+      "id": "hall-1",
+      "name": "Hall 1 (Auditorium)",
+      "building_id": "chintan",
+      "floor": "Ground Floor",
+      "wing": "Central Atrium",
+      "directions_text": "Enter Chintan Bhawan main entrance -> Proceed straight past security desk into the central atrium -> Hall 1 Main Auditorium entrance is directly in front with double mahogany doors."
+    },
+    {
+      "id": "admissions-g12",
+      "name": "Admissions Office (G-12)",
+      "building_id": "samadhan",
+      "floor": "Ground Floor",
+      "wing": "West Wing",
+      "directions_text": "Enter Samadhan Admin Block through main glass doors -> Turn left past the central reception -> Follow the hallway 20 metres -> Room G-12 (Admissions & PGP Office) is on your right."
+    },
+    {
+      "id": "finance-108",
+      "name": "Finance & Accounts (Room 108)",
+      "building_id": "samadhan",
+      "floor": "Floor 1",
+      "wing": "North Wing",
+      "directions_text": "Enter Samadhan Admin Block -> Take elevator or stairs to Floor 1 -> Turn left toward the Accounts Cell -> Room 108 is at the end of the north corridor for fee clearance and receipts."
+    },
+    {
+      "id": "digital-ref",
+      "name": "Digital Reference & Bloomberg Terminal",
+      "building_id": "gyanodaya",
+      "floor": "Floor 2",
+      "wing": "North Wing",
+      "directions_text": "Enter Gyanodaya Central Library through security turnstiles -> Take the staircase on the right to 2nd Floor -> Enter the Digital Reference & Financial Data Lab on the north side."
+    },
+    {
+      "id": "doctor-room",
+      "name": "Doctor Consultation Room 1",
+      "building_id": "health-centre",
+      "floor": "Ground Floor",
+      "wing": "Main OPD",
+      "directions_text": "Enter Samarpan Health Centre via the accessible ramp -> Reception desk on right -> Consultation Room 1 is through the first door on your left."
+    },
+    {
+      "id": "scifi-suite",
+      "name": "SCIFI Startup Lounge",
+      "building_id": "anusandhan",
+      "floor": "Floor 1",
+      "wing": "Innovation Wing",
+      "directions_text": "Enter Anusandhan Centre -> Take staircase to Floor 1 -> Turn right into the SCIFI Incubation & Startup Lounge."
+    },
+    {
+      "id": "mess-veg",
+      "name": "Vegetarian Dining Hall",
+      "building_id": "annapoorna-mess",
+      "floor": "Ground Floor",
+      "wing": "East Wing",
+      "directions_text": "Enter Annapoorna Mess main entrance -> Head right toward the East Wing buffet counters -> Tray return station is near the exit door."
+    },
+    {
+      "id": "hostel-common-10",
+      "name": "H10 Common Room",
+      "building_id": "hostel-10",
+      "floor": "Ground Floor",
+      "wing": "Central Block",
+      "directions_text": "Enter Hostel 10 main archway -> Common room and table tennis area is situated immediately to the left of the warden desk."
+    }
+  ],
+  "nodes": [
+    { "id": "b_main-gate", "lat": 26.936753, "lng": 80.904685, "label": "Main Entrance" },
+    { "id": "j_gate_avenue", "lat": 26.936780, "lng": 80.903800, "label": "Gate Boulevard" },
+    { "id": "j_east", "lat": 26.936850, "lng": 80.902800, "label": "East Junction (Patanjali Entry)" },
+    { "id": "b_patanjali", "lat": 26.936984, "lng": 80.901097, "label": "Patanjali Faculty Block" },
+    { "id": "j_patanjali_west", "lat": 26.936920, "lng": 80.899800, "label": "Patanjali West Promenade" },
+    { "id": "j_mid", "lat": 26.937000, "lng": 80.898500, "label": "Central Spine Junction" },
+    { "id": "b_annapoorna-mess", "lat": 26.937276, "lng": 80.898123, "label": "Annapoorna Mess" },
+    { "id": "b_bake-o-mocha", "lat": 26.936695, "lng": 80.897412, "label": "Bake-o-Mocha Cafe" },
+    { "id": "j_acad_north", "lat": 26.936100, "lng": 80.897300, "label": "Academic North Gate" },
+    { "id": "j_acad", "lat": 26.935600, "lng": 80.897200, "label": "Academic Quad Junction" },
+    { "id": "b_chintan", "lat": 26.935445, "lng": 80.897361, "label": "Chintan Bhawan (Bodhi Griha)" },
+    { "id": "b_samadhan", "lat": 26.935134, "lng": 80.897831, "label": "Samadhan Admin Block" },
+    { "id": "j_library_walk", "lat": 26.935050, "lng": 80.898400, "label": "Gyanodaya Tree Walk" },
+    { "id": "b_gyanodaya", "lat": 26.934993, "lng": 80.898999, "label": "Gyanodaya Library" },
+    { "id": "j_health_lane", "lat": 26.935800, "lng": 80.896200, "label": "Samarpan Health Lane" },
+    { "id": "b_health-centre", "lat": 26.935731, "lng": 80.895303, "label": "Samarpan Health Centre" },
+    { "id": "b_anusandhan", "lat": 26.935937, "lng": 80.894846, "label": "Anusandhan SCIFI" },
+    { "id": "j_hostel", "lat": 26.937600, "lng": 80.895600, "label": "Hostel Quadrangle Junction" },
+    { "id": "b_hostel-10", "lat": 26.937151, "lng": 80.895878, "label": "Hostel 10" },
+    { "id": "b_hostel-13-14", "lat": 26.937834, "lng": 80.895641, "label": "Hostels 13 & 14" },
+    { "id": "b_futsal-ground", "lat": 26.938269, "lng": 80.895743, "label": "Futsal Synthetic Turf" },
+    { "id": "j_sports_link", "lat": 26.938500, "lng": 80.895000, "label": "Sports Complex Walk" },
+    { "id": "b_cricket-ground", "lat": 26.938719, "lng": 80.894160, "label": "Cricket Ground & Pavilion" },
+    { "id": "j_north", "lat": 26.939600, "lng": 80.895500, "label": "North Campus Junction" },
+    { "id": "b_hostel-16", "lat": 26.939307, "lng": 80.894997, "label": "Hostel 16" },
+    { "id": "b_aryabhatt", "lat": 26.939632, "lng": 80.894707, "label": "Aryabhatt Guest House" },
+    { "id": "b_utsav-auditorium", "lat": 26.940110, "lng": 80.896327, "label": "Utsav Auditorium & OAT" }
+  ],
+  "edges": [
+    { "from": "b_main-gate", "to": "j_gate_avenue" },
+    { "from": "j_gate_avenue", "to": "j_east" },
+    { "from": "j_east", "to": "b_patanjali" },
+    { "from": "b_patanjali", "to": "j_patanjali_west" },
+    { "from": "j_patanjali_west", "to": "j_mid" },
+    { "from": "j_east", "to": "j_mid" },
+    { "from": "j_mid", "to": "b_annapoorna-mess" },
+    { "from": "j_mid", "to": "b_bake-o-mocha" },
+    { "from": "j_mid", "to": "j_acad_north" },
+    { "from": "j_acad_north", "to": "j_acad" },
+    { "from": "j_acad", "to": "b_chintan" },
+    { "from": "b_chintan", "to": "b_samadhan" },
+    { "from": "b_samadhan", "to": "j_library_walk" },
+    { "from": "j_library_walk", "to": "b_gyanodaya" },
+    { "from": "j_acad", "to": "j_health_lane" },
+    { "from": "j_health_lane", "to": "b_health-centre" },
+    { "from": "b_health-centre", "to": "b_anusandhan" },
+    { "from": "j_mid", "to": "j_hostel" },
+    { "from": "j_hostel", "to": "b_hostel-10" },
+    { "from": "j_hostel", "to": "b_hostel-13-14" },
+    { "from": "j_hostel", "to": "b_futsal-ground" },
+    { "from": "b_futsal-ground", "to": "j_sports_link" },
+    { "from": "j_sports_link", "to": "b_cricket-ground" },
+    { "from": "j_hostel", "to": "j_north" },
+    { "from": "j_north", "to": "b_hostel-16" },
+    { "from": "j_north", "to": "b_aryabhatt" },
+    { "from": "j_north", "to": "b_utsav-auditorium" },
+    { "from": "b_cricket-ground", "to": "b_hostel-16" }
+  ],
+  "building_nodes": {
+    "main-gate": "b_main-gate",
+    "patanjali": "b_patanjali",
+    "gyanodaya": "b_gyanodaya",
+    "bake-o-mocha": "b_bake-o-mocha",
+    "hostel-10": "b_hostel-10",
+    "hostel-13-14": "b_hostel-13-14",
+    "futsal-ground": "b_futsal-ground",
+    "cricket-ground": "b_cricket-ground",
+    "aryabhatt": "b_aryabhatt",
+    "utsav-auditorium": "b_utsav-auditorium",
+    "hostel-16": "b_hostel-16",
+    "chintan": "b_chintan",
+    "samadhan": "b_samadhan",
+    "annapoorna-mess": "b_annapoorna-mess",
+    "health-centre": "b_health-centre",
+    "anusandhan": "b_anusandhan"
+  }
+}

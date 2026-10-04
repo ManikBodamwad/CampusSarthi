@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,300;1,400&family=Instrument+Serif:ital@0;1&family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Unified Cinematic Twilight Glassmorphic Design System */
+  --bg: #0B0E14;
+  --bg-deep: #07090D;
+  --bg-surface: #121822;
+  --bg-surface-elevated: #182230;
+  --bg-surface-subtle: #0F141D;
+  
+  --ink: #F5F7FA;
+  --text-muted: #8E9BAE;
+  --text-dim: #5B687C;
+  
+  --border: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(255, 255, 255, 0.14);
+  --border-glow: rgba(229, 168, 105, 0.35);
+  
+  --accent-gold: #E5A869;
+  --accent-peach: #F3C99F;
+  --accent-dusk: #C86D51;
+  --accent-maroon: #6E1423;
+  
+  --success: #34D399;
+  --warning: #FB923C;
+}
+
+body {
+  color: var(--ink);
+  background-color: var(--bg);
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(229, 168, 105, 0.05) 0%, transparent 60%),
+    radial-gradient(circle at 80% 20%, rgba(200, 109, 81, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 20% 80%, rgba(18, 24, 34, 0.8) 0%, transparent 60%);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography helper classes */
+.font-display {
+  font-family: 'Fraunces', 'Instrument Serif', Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+/* Minimal subtle scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+/* Surface Card Token - Frosted Glassmorphic Surface */
+.surface-card {
+  background-color: rgba(18, 24, 34, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.2s ease, transform 0.15s ease;
+}
+
+.surface-card:hover {
+  border-color: var(--border-light);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--ink);
+  color: #0B0E14;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 9999px;
+  padding: 10px 22px;
+  border: 1px solid var(--ink);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-primary:hover {
+  background-color: #FFFFFF;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 18px rgba(229, 168, 105, 0.3);
+}
+
+.btn-secondary {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--ink);
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 9999px;
+  padding: 10px 22px;
+  border: 1px solid var(--border-light);
+  backdrop-filter: blur(12px);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+}
+
+/* Glass Pill Navigation */
+.glass-nav-pill {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: rgba(18, 24, 34, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Leaflet container dark styling */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  z-index: 10;
+  background-color: #F8F8F6;
+}
+
+/* User Live GPS Marker */
+.user-marker-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.user-marker-pulse {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(229, 168, 105, 0.35);
+  animation: pulse-ring 2.2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.user-marker-dot {
+  position: relative;
+  z-index: 2;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 0 10px rgba(229, 168, 105, 0.8);
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+/* Markdown answer prose in twilight style */
+.prose-answer p {
+  margin-bottom: 0.65rem;
+  line-height: 1.65;
+  color: #D1D5DB;
+}
+.prose-answer p:last-child {
+  margin-bottom: 0;
+}
+.prose-answer strong {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.prose-answer ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 0.65rem;
+}
+.prose-answer li {
+  margin-bottom: 0.3rem;
+  color: #D1D5DB;
+}
